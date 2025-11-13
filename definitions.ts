@@ -15,7 +15,7 @@ Blockly.Blocks['communes_get'] = {
         this.appendDummyInput()
           .appendField(new Blockly.FieldVariable("communes"), "communes")
           .appendField(" = ")
-          .appendField(".get(");
+          .appendField("get(");
         this.appendValueInput("skip")
             .setCheck(null);
         this.appendValueInput("take")
