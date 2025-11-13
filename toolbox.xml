@@ -1,0 +1,7 @@
+<category name="Communes" colour="#108a00" css-icon="customIcon fad fa-sun-cloud">
+    <label text="Communes"></label>
+
+    <block type="import_communes"></block>
+
+    <block type="communes_get"></block>
+</category>
